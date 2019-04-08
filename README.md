@@ -8,4 +8,4 @@ The programs in this repository have been created to test to more whimsical, pla
 
 ## ZPRESSSTART
 
-A selection screen game - user has to input a specific combination of info into the screen and execute in order to win.
+A selection screen game - the user has to input a specific combination of answers into the screen and execute in order to win.
