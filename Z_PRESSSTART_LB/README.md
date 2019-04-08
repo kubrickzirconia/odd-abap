@@ -39,3 +39,8 @@ Once the player has worked this out, they can cross out each even clue, leaving 
 > 10. ~~What does the fox say?~~
 
 #### Answering the Questions
+
+As clue number 1 states, every item in the puzzle has a pair. So, the player needs to answer the questions in such a way that there are 5 pairs of answers.
+
+
+
