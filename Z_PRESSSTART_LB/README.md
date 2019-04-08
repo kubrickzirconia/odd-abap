@@ -24,14 +24,14 @@ The player is presented with ten clues to help them solve the puzzle; however, u
 > 10. What does the fox say?
 
 > 1. Every item has a pair
-> ~~2. You cannot win this game~~
+> 2. ~~You cannot win this game~~
 > 3. Leave but one thing blank
-> ~~4. Leave nothing blank~~
+> 4. ~~Leave nothing blank~~
 > 5. Every other statement is a lie
-> ~~6. The statement above is a lie~~
+> 6. ~~The statement above is a lie~~
 >7. Statement number 5 is true
-> ~~8. I’m loving it~~
+> 8. ~~I’m loving it~~
 > 9. Whereof one cannot speak...
-> ~~10. What does the fox say?~~
+> 10. ~~What does the fox say?~~
 
 #### Answering the Questions
