@@ -2,11 +2,19 @@
 
 Uploaded 03/04/2019
 
+To use this code, just create a regular source code ABAP program and copy and paste the code in _Z_PRESSSTART_LB.abap_.
+
+The file _winning.gif_ provides an example of the gameplay and reveals the solution to the puzzle.
+
 ## Selection Screens in SAP
 
-## Understanding the Game
+Press Start works using selection screens. Usually to retreive data from the database.
 
-Press Start is a cryptic puzzle. The user is given 10 clues and 10 questions to answer. 
+For Press Start, pressing execute reveals whether the player has solved the puzzle. If they have, a winner message is displayed. If they have not, a loser message is displayed.
+
+## Solution: Understanding the Game
+
+Press Start is a cryptic puzzle. The user is given 10 clues and 10 questions to answer. Please see below for an explanation of the puzzle's cryptic clues. The following also includes the puzzle's solution. 
 
 #### The 10 Clues
 
@@ -40,7 +48,39 @@ Once the player has worked this out, they can cross out each even clue, leaving 
 
 #### Answering the Questions
 
-As clue number 1 states, every item in the puzzle has a pair. So, the player needs to answer the questions in such a way that there are 5 pairs of answers.
+As clue number 1 states, every item in the puzzle has a pair. So, the player needs to answer the questions in such a way that there are 5 pairs of answers. 
 
+The game is difficult precisely because they are so many red herrings - so many different ways to interpret the questions put forward. Although there are many different interpretations, there is only one set of correct answers. The following explains the solution to the game: 
 
+**I can has cheezburger?**
+
+DOG/BIRD/CAT/SNAKE pairs with Cheezeburger?
+
+Check the cheezeburger checkbox so that the cat can has cheezburger. 
+
+**How much wood would a woodchuck chuck?**
+
+WOODSTOCK/CHARLIE/LINUS pairs with ANGELICA/TOMMY/CHUCKIE
+
+Mashing the words Woodstock and Chuckie together creates the word woodchuck.
+
+**Lochness Monster**
+
+Open me pairs with MC/NESS
+
+The answer to Open Me is LOCK - because, although you use a key to open things, the thing that you open is a lock. Pairing Loch and Ness creates the word "lochness". 
+
+**The Communist Manifesto**
+
+HAMMER/CHAIN SICK/WELL
+
+Hammer & Sick = Hammer & Sickle
+
+**The Sound of Silence**
+
+hold your peace pairs with WTF/ASL/LOL
+
+Clue number 3 reveals that one of the answers should be left blank. 
+
+ASL (age/sex/location) is internet slang commonly used by _single_ people when getting to know one another. This means that in this pair there is a single answer. Hold Your Peace should be left blank - speak now or forever hold your peace - the player stays silent, holding their peace.
 
