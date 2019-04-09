@@ -9,3 +9,7 @@ The programs in this repository have been created to test to more whimsical, pla
 ## ZPRESSSTART
 
 A selection screen game - the user has to input a specific combination of answers into the screen and execute in order to win.
+
+## ZTICKTOCK
+
+The existentialist countdown clock.
