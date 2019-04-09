@@ -10,6 +10,8 @@ The file _winning.gif_ provides an example of the gameplay and reveals the solut
 
 Press Start works using selection screens. Usually to retreive data from the database.
 
+![](selectionscreenelements.jpg)
+
 For Press Start, pressing execute reveals whether the player has solved the puzzle. If they have, a winner message is displayed. If they have not, a loser message is displayed.
 
 ## Solution: Understanding the Game
