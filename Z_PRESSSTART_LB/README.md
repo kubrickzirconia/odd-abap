@@ -5,7 +5,7 @@ Uploaded 03/04/2019
 1. Enter transacton code SE38.
 2. Enter program name, select Source Code radio button, click the Create button.
 3. Fill in the Program Attributes according to your own requirements.
-4. Copy and paste the code contained in _Z_PRESSSTART_LB.abap_.
+4. Copy and paste the code contained in _Z_PRESSSTART_LB.abap_ into your new program.
 
 The file _winning.gif_ provides an example of the gameplay and reveals the solution to the puzzle.
 
