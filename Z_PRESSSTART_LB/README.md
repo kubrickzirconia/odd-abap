@@ -2,13 +2,16 @@
 
 Uploaded 03/04/2019
 
-To use this code, just create a regular source code ABAP program and copy and paste the code in _Z_PRESSSTART_LB.abap_.
+1. Enter transacton code SE38.
+2. Enter program name, select Source Code radio button, click the Create button.
+3. Fill in the Program Attributes according to your own requirements.
+4. Copy and paste the code contained in _Z_PRESSSTART_LB.abap_.
 
 The file _winning.gif_ provides an example of the gameplay and reveals the solution to the puzzle.
 
 ## Selection Screens in SAP
 
-Press Start works using selection screens. Usually to retreive data from the database.
+Press Start works using selection screens, a vital component of SAP executable report programs, usually used to retreive or edit data from the DBMS. A standard SAP selection screen is created so that the player can create a filtered search/update query and execute it. The selection screen elements are used to facilitate these selections. Press Start uses three types of selection screen elements, illustrated below:
 
 ![](selectionscreenelements.jpg)
 
@@ -52,35 +55,35 @@ Once the player has worked this out, they can cross out each even clue, leaving 
 
 As clue number 1 states, every item in the puzzle has a pair. So, the player needs to answer the questions in such a way that there are 5 pairs of answers. 
 
-The game is difficult precisely because they are so many red herrings - so many different ways to interpret the questions put forward. Although there are many different interpretations, there is only one set of correct answers. The following explains the solution to the game: 
+The game is difficult precisely because they are so many red herrings - so many different ways to interpret the questions put forward. Although there are many different interpretations, there is only one set of correct answers. Generally, the answers are linguistic puns that play with well known sayings and memes. The following explains the solution to the game: 
 
 **I can has cheezburger?**
 
-DOG/BIRD/CAT/SNAKE pairs with Cheezeburger?
+CAT' pairs with 'Cheezeburger?'
 
-Check the cheezeburger checkbox so that the cat can has cheezburger. 
+These two questions reference the popular meme 'I can has cheezburger?'. Check the cheezeburger checkbox so that the cat can has cheezburger. 
 
 **How much wood would a woodchuck chuck?**
 
-WOODSTOCK/CHARLIE/LINUS pairs with ANGELICA/TOMMY/CHUCKIE
+'WOODSTOCK' pairs with 'CHUCKIE'
 
-Mashing the words Woodstock and Chuckie together creates the word woodchuck.
+Mashing the words Woodstock and Chuckie together creates the word woodchuck, a reference to the 'how much wood...' tongue twister
 
 **Lochness Monster**
 
-Open me pairs with MC/NESS
+'Open Me' pairs with 'NESS'
 
-The answer to Open Me is LOCK - because, although you use a key to open things, the thing that you open is a lock. Pairing Loch and Ness creates the word "lochness". 
+The answer to 'Open Me' is 'LOCK' because, although you use a key to open things, the thing that you open is a lock. Pairing Lock (Loch) and Ness creates the word "lochness". 
 
 **The Communist Manifesto**
 
-HAMMER/CHAIN SICK/WELL
+'HAMMER' pairs with 'SICK'
 
-Hammer & Sick = Hammer & Sickle
+Hammer & Sick evokes the Hammer & Sickle, the famous symbol of 20th century communist revolution.
 
 **The Sound of Silence**
 
-hold your peace pairs with WTF/ASL/LOL
+'Hold Your Peace' pairs with 'ASL'
 
 Clue number 3 reveals that one of the answers should be left blank. 
 
