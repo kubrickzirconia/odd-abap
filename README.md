@@ -6,6 +6,12 @@ ABAP is the proprietary language of SAP, used to write both standardised busines
 
 The programs in this repository have been created to test to more whimsical, playful side of ABAP. Using the technical capabilities of SAP software to play with extraneous functionality.
 
+All of the programs and applications uploaded here use the following naming convention:
+
+> Z_PROJECT_NAME_LB
+
+SAP requires all customers to start their names with customer namespace: a y or a z. I've added my initials to the end of each project to identify them within the sandbox system I use.
+
 ## Z_PRESS_START_LB
 
 [Z_PRESS_START_LB][1] is a tricky, eccentric puzzle that utilises selection screens. The player has to input a specific combination of answers into the screen and execute in order to win. Uploaded 03/04/2019.
