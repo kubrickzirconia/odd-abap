@@ -6,10 +6,10 @@ ABAP is the proprietary language of SAP, used to write both standardised busines
 
 The programs in this repository have been created to test to more whimsical, playful side of ABAP. Using the technical capabilities of SAP software to play with extraneous functionality.
 
-## ZPRESSSTART
+## Z_PRESS_START_LB
 
 Press Start is a tricky, eccentric puzzle that utilises selection screen interfaces. The player has to input a specific combination of answers into the screen and execute in order to win. Uploaded 03/04/2019.
 
-## ZTICKTOCK
+## Z_TICK_TOCK_LB
 
 The existentialist countdown clock.
