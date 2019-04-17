@@ -8,7 +8,7 @@ The programs in this repository have been created to test to more whimsical, pla
 
 ## Z_PRESS_START_LB
 
-Press Start is a tricky, eccentric puzzle that utilises selection screen interfaces. The player has to input a specific combination of answers into the screen and execute in order to win. Uploaded 03/04/2019.
+Press Start is a tricky, eccentric puzzle that utilises selection screens. The player has to input a specific combination of answers into the screen and execute in order to win. Uploaded 03/04/2019.
 
 ## Z_TICK_TOCK_LB
 
