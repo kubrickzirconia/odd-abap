@@ -20,4 +20,8 @@ SAP requires all customers to start their names with customer namespace: a y or 
 
 The existentialist countdown clock.
 
+## Z_PLAYLIST_LB
+
+Song names are stored in a dictionary. User can add and remove songs, and can shuffle. 
+
 [1]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_PRESS_START_LB
