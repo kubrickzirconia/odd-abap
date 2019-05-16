@@ -12,16 +12,14 @@ All of the programs and applications uploaded here use the following naming conv
 
 SAP requires all customers to start their names with customer namespace: a y or a z. I've added my initials to the end of each project to identify them within the sandbox system I use.
 
-## Z_PRESS_START_LB
+## [Z_PRESS_START_LB][1]
 
-[Z_PRESS_START_LB][1] is a tricky, eccentric puzzle that utilises selection screens. The player has to input a specific combination of answers into the screen and execute in order to win. Uploaded 03/04/2019.
+A tricky, eccentric puzzle that runs on selection screens. The player has to input a specific combination of answers into the screen and execute in order to win. Uploaded 03/04/2019.
 
-## Z_TICK_TOCK_LB
+## [Z_PLAYLIST_LB][2]
 
-The existentialist countdown clock.
-
-## Z_PLAYLIST_LB
-
-Song names are stored in a dictionary. User can add and remove songs, and can shuffle. 
+A DDIC created to store song titles. The user can create, read, update, and delete the DDIC using an RFC enabled function module written to handle these operations.
 
 [1]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_PRESS_START_LB
+
+[2]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_PLAYLIST_LB
