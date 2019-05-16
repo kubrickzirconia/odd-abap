@@ -4,7 +4,7 @@ SAP is a gigantic, multinational corporation offering business software packages
 
 ABAP is the proprietary language of SAP, used to write both standardised business applications and the fundamental system itself. Those working with ABAP can use it to write customer exensions or to write entirely new software applications. ABAP programs use Open SQL statements to query the underlying Database Management System (DBMS).
 
-The programs in this repository have been created to test to more whimsical, playful side of ABAP. Using the technical capabilities of SAP software to play with extraneous functionality.
+The programs in this repository have been created to use ABAP more playfully. Using the technical capabilities of SAP software to play with extraneous functionality.
 
 All of the programs and applications uploaded here use the following naming convention:
 
