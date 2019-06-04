@@ -8,7 +8,7 @@ This project consists of two main components:
 
 The Z_PLAYLIST_LB function module can be used to perform the CRUD operations on the database, allowing the user to maintain a tracklist. The user supplies any data they wish to create, update, or delete, as well as one of the CRUD letters. The function module enacts the CRUD operation and peforms any database commits. The user receives any error messages and, if they requested the Read operation, the user receives a list of all entries in ZTRACKS_lB as a table.
 
-A flaw in this program is that each execution can only handle one CRUD operation. For isntance, in the same run, you cannot update some entries and delete others.
+A flaw in this program is that each execution can only handle one CRUD operation. For isntance, in the same run, you cannot update some entries and delete others. The program will take the CRUD operation of the first line and perform that operation for all given entries.
 
 ## Data Dictionary
 
