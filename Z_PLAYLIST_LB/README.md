@@ -1,5 +1,9 @@
 # Z_PLAYLIST_LB
 
+[Z_PLAYLIST_LB.abap][1]## 
+
+[1]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_PLAYLIST_LB/Z_PLAYLIST_LB.abap
+
 This project consists of two main components:
 
 1. ZTRACKS_LB: a DDIC to store a list of songs.
@@ -51,3 +55,5 @@ This table has the same structure as ZTRACKS_LB. If the user requests the 'R' op
 I created a message class in SE91, which will be used to populate any error messages to CT_RETURN, the return parameter for the function module.
 
 ![](zlbtest_message_class.JPG)
+
+A subroutine, ERROR_MESSAGE, can be found at the bottom of the function module. This subroutine handles adding error messages to CT_RETURN. It is performed at any point where an error occurs. The subroutine could be copied to an include and placed at the top of the program if desired.
