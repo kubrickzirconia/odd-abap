@@ -18,7 +18,7 @@ A tricky, eccentric puzzle that runs on selection screens. The player has to inp
 
 ## [Z_PLAYLIST_LB][2]
 
-A DDIC created to store song titles. The user can create, read, update, and delete the DDIC using an RFC enabled function module written to handle these operations.
+A DDIC created to store song titles. The user can create, read, update, and delete the DDIC using an RFC enabled function module written to handle these operations. Uploaded 04/06/2019.
 
 [1]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_PRESS_START_LB
 
