@@ -33,4 +33,4 @@ For the CRUD field, a custom domain and data element, both named ZCRUD, were cre
 
 I created a message class, which will be used to populate any error messages to CT_RETURN, the return parameter for the function module.
 
-![](zlbtest message class.JPG)
+![](zlbtest_message_class.JPG)
