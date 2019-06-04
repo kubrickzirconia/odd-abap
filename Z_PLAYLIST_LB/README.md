@@ -4,9 +4,7 @@ This project consists of two main components:
 
 1. ZTRACKS_LB: a DDIC to store a list of songs.
 
-2. Z_PLAYLSIT_LB: an RFC enabled function module that can be used to create, read, update, and delete ZTRACKSLB. 
-
-The Z_PLAYLIST_LB function module can be used to perform the CRUD operations on the database, allowing the user to maintain a tracklist.
+2. Z_PLAYLSIT_LB: an RFC enabled function module that can be used to create, read, update, and delete fields from ZTRACKSLB. The Z_PLAYLIST_LB function module can be used to perform the CRUD operations on the database, allowing the user to maintain a tracklist.
 
 ## Data Dictionary
 
@@ -20,22 +18,16 @@ The function module Z_PLAYLIST_LB was created in SE37, and assigned to a functio
 
 ![](createFM.JPG)
 
-#### The Parameters
+### The Parameters
 
 A second DDIC structure was created for the importing table parameter as the table needed to include a field for the CRUD operations. 
 
 ![](rfcddic.JPG)
 
-For the CRUD field, a custom domain and data element, both named ZCRUD, were created:
+For the CRUD field, a custom domain and data element, both named ZCRUD, were created to define a specific value range of C, R, U, or D.
 
-![](zcruddomain.JPG) ![](zcruddomain1.JPG)
+### Error Handling
 
-#### The Sourcecode 
+I created a message class, which will be used to populate any error messages to CT_RETURN, the return parameter for the function module.
 
-IF it_ztracks-crud = 'C'.
-
-IF it_ztracks-crud = 'R'.
-
-IF it_ztracks-crud = 'U'.
-
-IF it_ztracks-crud = 'D'.
+![](zlbtest message class.JPG)
