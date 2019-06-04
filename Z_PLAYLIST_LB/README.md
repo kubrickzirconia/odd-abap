@@ -1,6 +1,6 @@
 # Z_PLAYLIST_LB
 
-[Z_PLAYLIST_LB.abap][1]## 
+[Z_PLAYLIST_LB.abap][1]
 
 [1]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_PLAYLIST_LB/Z_PLAYLIST_LB.abap
 
