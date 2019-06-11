@@ -20,6 +20,10 @@ A tricky, eccentric puzzle that runs on selection screens. The player has to inp
 
 A DDIC created to store song titles. The user can create, read, update, and delete the DDIC using an RFC enabled function module written to handle these operations. Uploaded 04/06/2019.
 
+## [Z_DOT_DASH_DOT_LB][4]
+
+A function module to translate text into morse code.
+
 ## [Z_SUM41_LB][3]
 
 [1]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_PRESS_START_LB
@@ -27,3 +31,5 @@ A DDIC created to store song titles. The user can create, read, update, and dele
 [2]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_PLAYLIST_LB
 
 [3]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_SUM41_LB
+
+[4]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_DOT_DASH_DOT_LB
