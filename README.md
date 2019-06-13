@@ -24,6 +24,10 @@ A DDIC created to store song titles. The user can create, read, update, and dele
 
 A function module to translate text into morse code.
 
+## [Z_AUTOMATED_BIOGRAPHY_LB][5]
+
+A selection screen that takes input on the user and outputs a CV as pdf.
+
 ## [Z_SUM41_LB][3]
 
 [1]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_PRESS_START_LB
@@ -33,3 +37,5 @@ A function module to translate text into morse code.
 [3]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_SUM41_LB
 
 [4]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_DOT_DASH_DOT_LB
+
+[5]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_AUTOMATED_BIOGRAPHY_LB
