@@ -14,19 +14,19 @@ SAP requires all customers to start their names with customer namespace: a y or 
 
 ## [Z_PRESS_START_LB][1]
 
-A tricky, eccentric puzzle that runs on selection screens. The player has to input a specific combination of answers into the screen and execute in order to win. Uploaded 03/04/2019.
+A tricky, eccentric puzzle that runs on selection screens. Uploaded 03/04/2019.
 
 ## [Z_PLAYLIST_LB][2]
 
-A DDIC created to store song titles. The user can create, read, update, and delete the DDIC using an RFC enabled function module written to handle these operations. Uploaded 04/06/2019.
+A DDIC created to store song titles and an RFC function module to update it. Uploaded 04/06/2019.
 
 ## [Z_DOT_DASH_DOT_LB][4]
 
-A function module to translate text into morse code.
+A function module to translate text into morse code. Uploaded 13/06/2019
 
 ## [Z_AUTOMATED_BIOGRAPHY_LB][5]
 
-A selection screen that takes input on the user and outputs a CV as pdf.
+A selection screen that takes input from the user and outputs a CV as an adobe form.
 
 ## [Z_SUM41_LB][3]
 
