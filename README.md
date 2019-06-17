@@ -24,6 +24,10 @@ A DDIC created to store song titles and an RFC function module to update it. Upl
 
 A function module to translate text into morse code. Uploaded 13/06/2019
 
+## [Z_CAKE_LB][6]
+
+A program to get all employee birthdays for the day, week, or month.
+
 ## [Z_AUTOMATED_BIOGRAPHY_LB][5]
 
 A selection screen that takes input from the user and outputs a CV as an adobe form.
@@ -39,3 +43,5 @@ A selection screen that takes input from the user and outputs a CV as an adobe f
 [4]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_DOT_DASH_DOT_LB
 
 [5]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_AUTOMATED_BIOGRAPHY_LB
+
+[6]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_CAKE_LB
