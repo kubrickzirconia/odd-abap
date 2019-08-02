@@ -16,6 +16,10 @@ A DDIC created to store song titles and an RFC function module to update it. Upl
 
 A function module to translate text into morse code. Uploaded 13/06/2019
 
+## [Z_FREQUENT_FLYER_LB][7]
+
+A program that calculates the average income per flight for a given airline. Uploaded 02/08/2019.
+
 ## [Z_CAKE_LB][6]
 
 A program to get all employee birthdays for the day, week, or month.
@@ -37,3 +41,5 @@ A selection screen that takes input from the user and outputs a CV as an adobe f
 [5]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_AUTOMATED_BIOGRAPHY_LB
 
 [6]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_CAKE_LB
+
+[7]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_FREQUENT_FLYER_LB
