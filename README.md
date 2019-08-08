@@ -20,6 +20,13 @@ A function module to translate text into morse code. Uploaded 13/06/2019
 
 A program that calculates the average income per flight for a given airline. Uploaded 02/08/2019.
 
+## [Z_PALINDROMO_LB][8]
+
+Takes a string as an input and works out if that string is a palindrome or not. Uploaded 08/08/2019.
+
+
+# WIP
+
 ## [Z_CAKE_LB][6]
 
 A program to get all employee birthdays for the day, week, or month.
@@ -43,3 +50,5 @@ A selection screen that takes input from the user and outputs a CV as an adobe f
 [6]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_CAKE_LB
 
 [7]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_FREQUENT_FLYER_LB
+
+[8]: https://github.com/kubrickzirconia/odd-abap/tree/master/Z_PALINDROMO_LB
