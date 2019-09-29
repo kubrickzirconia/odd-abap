@@ -22,12 +22,24 @@ TYPES:
 
   END OF lty_s_sflight.
 
-DATA: l_field     TYPE sflight-carrid,
-      lv_count    TYPE i,
-      lv_sum      TYPE sflight-paymentsum,
-      lv_currency TYPE sflight-currency,
-      lv_avg      TYPE sflight-paymentsum,
-      lt_sflight  TYPE TABLE OF lty_s_sflight.
+  TYPES:
+    BEGIN OF lty_s_amount_per_currency,
+
+      amount TYPE sflight-paymentsum,
+      currency   TYPE sflight-currency,
+      count      TYPE i,
+
+    END OF lty_s_amount_per_currency.
+
+DATA: l_field                   TYPE sflight-carrid,
+      lv_count                  TYPE i,
+      lv_sum                    TYPE sflight-paymentsum,
+      lv_converted_amount       TYPE sflight-paymentsum,
+      lv_currency               TYPE sflight-currency,
+      lv_avg                    TYPE sflight-paymentsum,
+      lt_sflight                TYPE TABLE OF lty_s_sflight,
+      ls_amount_per_currency    TYPE lty_s_amount_per_currency,
+      lt_h_amount_per_currency  TYPE HASHED TABLE OF lty_s_amount_per_currency WITH UNIQUE KEY currency.
 
 
 "selection screen
@@ -38,7 +50,7 @@ SELECTION-SCREEN BEGIN OF BLOCK 0000.
   SELECTION-SCREEN END OF LINE.
 
   SELECTION-SCREEN BEGIN OF LINE.
-    PARAMETERS: lv_input LIKE l_field.
+    PARAMETERS: lv_input LIKE l_field OBLIGATORY.
   SELECTION-SCREEN END OF LINE.
 
 SELECTION-SCREEN END OF BLOCK 0000.
@@ -53,30 +65,34 @@ SELECT paymentsum, currency FROM sflight
   WHERE carrid = @lv_input
   APPENDING TABLE @lt_sflight.
 
-"calculate avg paymentsum
+"collect amount per currency (avoids theoretical problem with bookings in multiple currencies)
 LOOP AT lt_sflight ASSIGNING FIELD-SYMBOL(<fs_sflight>).
-    lv_sum = lv_sum + <fs_sflight>-paymentsum.
-    lv_count = lv_count + 1.
+    ls_amount_per_currency-amount = <fs_sflight>-paymentsum.
+    ls_amount_per_currency-currency = <fs_sflight>-currency.
+    ls_amount_per_currency-count = 1.
+
+    COLLECT ls_amount_per_currency INTO lt_h_amount_per_currency.
+    CLEAR: ls_amount_per_currency.
 ENDLOOP.
 
+"convert amounts to GBP and add up sums and counts
+LOOP AT lt_h_amount_per_currency ASSIGNING FIELD-SYMBOL(<fs_amount_per_currency>).
+  "requires daily exchange rate to be maintained in system settings
+  CALL FUNCTION 'CONVERT_AMOUNT_TO_CURRENCY'
+    EXPORTING
+      date                   = sy-datum
+      foreign_currency       = <fs_amount_per_currency>-currency
+      foreign_amount         = <fs_amount_per_currency>-sum
+      local_currency         = 'GBP'
+   IMPORTING
+     local_amount           = lv_converted_amount.
+
+     lv_sum = lv_sum + lv_converted_amount.
+     lv_count = lv_count + <fs_amount_per_currency>-count.
+ENDLOOP.
+
+"calculate avg paymentsum
 lv_avg = lv_sum / lv_count.
-
-"calculate lv_avg exchange rate to GBP
-
-SELECT SINGLE currency FROM sflight
-  WHERE carrid = @lv_input
-  INTO @lv_currency.
-
-
-"requires daily exchange rate to be maintained in system sttings
-CALL FUNCTION 'CONVERT_AMOUNT_TO_CURRENCY'
-  EXPORTING
-    date                   = sy-datum
-    foreign_currency       = lv_currency
-    foreign_amount         = lv_avg
-    local_currency         = 'GBP'
- IMPORTING
-   local_amount           = lv_avg.
 
 "printing the result
 WRITE 'GBP '.
